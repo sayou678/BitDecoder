@@ -1,0 +1,16 @@
+E:\程序\TT\BitDecode\BitDecode\BitDecode\bin\Debug\BitDecode.exe.config
+E:\程序\TT\BitDecode\BitDecode\BitDecode\bin\Debug\BitDecode.exe
+E:\程序\TT\BitDecode\BitDecode\BitDecode\bin\Debug\BitDecode.pdb
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\ResolveAssemblyReference.cache
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.AboutBox1.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.DeleteTable.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.Help.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.LoadTable.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.MainForm.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.DisplayOption.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.Option.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.Properties.Resources.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.TableName.resources
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.csproj.GenerateResource.Cache
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.exe
+E:\程序\TT\BitDecode\BitDecode\BitDecode\obj\Debug\BitDecode.pdb
