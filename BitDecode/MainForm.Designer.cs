@@ -83,20 +83,20 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Location = new System.Drawing.Point(3, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(645, 12);
+            this.label1.Size = new System.Drawing.Size(645, 13);
             this.label1.TabIndex = 77;
             this.label1.Text = "请输入源数据,必须是十六进制,可以有\"0x\",\"0X\",\";:,\"或空格,其他字符不支持.";
             // 
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(3, 33);
+            this.textBox1.Location = new System.Drawing.Point(3, 36);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(645, 94);
+            this.textBox1.Size = new System.Drawing.Size(645, 110);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -129,8 +129,8 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(651, 159);
             this.dataGridView1.TabIndex = 5;
-            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
             this.dataGridView1.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDown);
+            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyDown);
             // 
             // c0
@@ -158,8 +158,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
-            this.splitContainer1.Size = new System.Drawing.Size(651, 423);
-            this.splitContainer1.SplitterDistance = 260;
+            this.splitContainer1.Size = new System.Drawing.Size(651, 461);
+            this.splitContainer1.SplitterDistance = 298;
             this.splitContainer1.TabIndex = 3;
             // 
             // panel2
@@ -168,7 +168,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(651, 260);
+            this.panel2.Size = new System.Drawing.Size(651, 298);
             this.panel2.TabIndex = 44;
             // 
             // tableLayoutPanel1
@@ -183,11 +183,11 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(651, 260);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(651, 298);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
             // panel1
@@ -198,16 +198,16 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 133);
+            this.panel1.Location = new System.Drawing.Point(3, 152);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(645, 24);
+            this.panel1.Size = new System.Drawing.Size(645, 27);
             this.panel1.TabIndex = 10;
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(373, 1);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 23);
+            this.button2.Size = new System.Drawing.Size(112, 25);
             this.button2.TabIndex = 56;
             this.button2.Text = "↑ 4字节逆序重排";
             this.button2.UseVisualStyleBackColor = true;
@@ -222,7 +222,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(175, 3);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(71, 16);
+            this.radioButton2.Size = new System.Drawing.Size(73, 17);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "十六进制";
@@ -234,7 +234,7 @@
             this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(110, 3);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(59, 16);
+            this.radioButton1.Size = new System.Drawing.Size(61, 17);
             this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "二进制";
@@ -245,7 +245,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(283, 1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 25);
             this.button1.TabIndex = 3;
             this.button1.Text = "显示选项";
             this.button1.UseVisualStyleBackColor = true;
@@ -256,19 +256,19 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(9, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 12);
+            this.label2.Size = new System.Drawing.Size(103, 13);
             this.label2.TabIndex = 55;
             this.label2.Text = "转换成标准形式：";
             // 
             // textBox2
             // 
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(3, 163);
+            this.textBox2.Location = new System.Drawing.Point(3, 185);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(645, 94);
+            this.textBox2.Size = new System.Drawing.Size(645, 110);
             this.textBox2.TabIndex = 4;
             // 
             // toolStripContainer1
@@ -279,13 +279,13 @@
             // 
             this.toolStripContainer1.ContentPanel.AutoScroll = true;
             this.toolStripContainer1.ContentPanel.Controls.Add(this.splitContainer1);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(651, 423);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(651, 461);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
-            this.toolStripContainer1.Location = new System.Drawing.Point(0, 25);
+            this.toolStripContainer1.Location = new System.Drawing.Point(0, 24);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(651, 423);
+            this.toolStripContainer1.Size = new System.Drawing.Size(651, 461);
             this.toolStripContainer1.TabIndex = 5;
             this.toolStripContainer1.Text = "toolStripContainer1";
             this.toolStripContainer1.TopToolStripPanelVisible = false;
@@ -300,7 +300,7 @@
             this.帮助HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(651, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(651, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -313,7 +313,7 @@
             this.toolStripSeparator2,
             this.退出XToolStripMenuItem});
             this.文件FToolStripMenuItem.Name = "文件FToolStripMenuItem";
-            this.文件FToolStripMenuItem.Size = new System.Drawing.Size(58, 21);
+            this.文件FToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.文件FToolStripMenuItem.Text = "文件(&F)";
             // 
             // 保存表项SToolStripMenuItem
@@ -322,7 +322,7 @@
             this.保存表项SToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.保存表项SToolStripMenuItem.Name = "保存表项SToolStripMenuItem";
             this.保存表项SToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.保存表项SToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.保存表项SToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.保存表项SToolStripMenuItem.Text = "保存表项(&S)";
             this.保存表项SToolStripMenuItem.Click += new System.EventHandler(this.保存SToolStripMenuItem_Click);
             // 
@@ -330,26 +330,26 @@
             // 
             this.载入表项LToolStripMenuItem.Name = "载入表项LToolStripMenuItem";
             this.载入表项LToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
-            this.载入表项LToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.载入表项LToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.载入表项LToolStripMenuItem.Text = "载入表项(&L)";
             this.载入表项LToolStripMenuItem.Click += new System.EventHandler(this.载入表项LToolStripMenuItem_Click);
             // 
             // 删除表项DToolStripMenuItem
             // 
             this.删除表项DToolStripMenuItem.Name = "删除表项DToolStripMenuItem";
-            this.删除表项DToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.删除表项DToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.删除表项DToolStripMenuItem.Text = "删除表项(&D)";
             this.删除表项DToolStripMenuItem.Click += new System.EventHandler(this.删除表项DToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(173, 6);
             // 
             // 退出XToolStripMenuItem
             // 
             this.退出XToolStripMenuItem.Name = "退出XToolStripMenuItem";
-            this.退出XToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.退出XToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.退出XToolStripMenuItem.Text = "退出(&X)";
             this.退出XToolStripMenuItem.Click += new System.EventHandler(this.退出XToolStripMenuItem_Click);
             // 
@@ -358,14 +358,14 @@
             this.编辑EToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.刷新AToolStripMenuItem});
             this.编辑EToolStripMenuItem.Name = "编辑EToolStripMenuItem";
-            this.编辑EToolStripMenuItem.Size = new System.Drawing.Size(59, 21);
+            this.编辑EToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.编辑EToolStripMenuItem.Text = "编辑(&E)";
             // 
             // 刷新AToolStripMenuItem
             // 
             this.刷新AToolStripMenuItem.Name = "刷新AToolStripMenuItem";
             this.刷新AToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.刷新AToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.刷新AToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.刷新AToolStripMenuItem.Text = "刷新(&F)";
             this.刷新AToolStripMenuItem.Click += new System.EventHandler(this.刷新AToolStripMenuItem_Click);
             // 
@@ -374,13 +374,13 @@
             this.工具TToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.选项OToolStripMenuItem});
             this.工具TToolStripMenuItem.Name = "工具TToolStripMenuItem";
-            this.工具TToolStripMenuItem.Size = new System.Drawing.Size(59, 21);
+            this.工具TToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.工具TToolStripMenuItem.Text = "工具(&T)";
             // 
             // 选项OToolStripMenuItem
             // 
             this.选项OToolStripMenuItem.Name = "选项OToolStripMenuItem";
-            this.选项OToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.选项OToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.选项OToolStripMenuItem.Text = "选项(&O)";
             this.选项OToolStripMenuItem.Click += new System.EventHandler(this.选项OToolStripMenuItem_Click);
             // 
@@ -391,25 +391,25 @@
             this.toolStripSeparator5,
             this.关于AToolStripMenuItem});
             this.帮助HToolStripMenuItem.Name = "帮助HToolStripMenuItem";
-            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(61, 21);
+            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.帮助HToolStripMenuItem.Text = "帮助(&H)";
             // 
             // 内容CToolStripMenuItem
             // 
             this.内容CToolStripMenuItem.Name = "内容CToolStripMenuItem";
-            this.内容CToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.内容CToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.内容CToolStripMenuItem.Text = "内容(&C)";
             this.内容CToolStripMenuItem.Click += new System.EventHandler(this.内容CToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(122, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(120, 6);
             // 
             // 关于AToolStripMenuItem
             // 
             this.关于AToolStripMenuItem.Name = "关于AToolStripMenuItem";
-            this.关于AToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.关于AToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.关于AToolStripMenuItem.Text = "关于(&A)...";
             this.关于AToolStripMenuItem.Click += new System.EventHandler(this.关于AToolStripMenuItem_Click);
             // 
@@ -420,13 +420,13 @@
             this.toolStripMenuItem3,
             this.清空ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(184, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(177, 70);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(176, 22);
             this.toolStripMenuItem2.Text = "保存表项(&S)";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -434,27 +434,27 @@
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.ShortcutKeys = System.Windows.Forms.Keys.F4;
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(176, 22);
             this.toolStripMenuItem3.Text = "载入表项(&L)";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // 清空ToolStripMenuItem
             // 
             this.清空ToolStripMenuItem.Name = "清空ToolStripMenuItem";
-            this.清空ToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.清空ToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.清空ToolStripMenuItem.Text = "清空";
             this.清空ToolStripMenuItem.Click += new System.EventHandler(this.清空ToolStripMenuItem_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(651, 448);
+            this.ClientSize = new System.Drawing.Size(651, 485);
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.Text = "BitDecode";
+            this.Text = "BitDecoder";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);

@@ -13,12 +13,7 @@ namespace BitDecode
         public AboutBox1()
         {
             InitializeComponent();
-            this.Text = String.Format("关于 {0} {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("版本 {0} {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+            this.Text = String.Format("关于 {0}", "BitDecoder");            
         }
 
         #region 程序集属性访问器
@@ -78,7 +73,7 @@ namespace BitDecode
         {
             get
             {                
-                return "L00174933";
+                return "";
             }
         }
 
@@ -86,18 +81,20 @@ namespace BitDecode
         {
             get
             {                
-                return "Huawei";
+                return "";
             }
         }
         #endregion
 
         private void AboutBox1_Load(object sender, EventArgs e)
         {
-            textBoxDescription.Text = "本软件主要用于十六进制数按bit位进行分段显示，非常适合于寄存器字段的查看、Ipv6地址的查看等，程序员必备！！\r\n\r\n";
-            textBoxDescription.Text += "作者：李云岗 00174933\r\n\r\n";
-            textBoxDescription.Text += "请将Bug或对本软件的建议告诉我。\r\n\r\n";
-            textBoxDescription.Text += "本软件由VS2008 C#编译，如需源代码请联系我。\r\n\r\n";
-            textBoxDescription.Text += "如果想外网使用本软件，请在CSDN上搜索BitDecode";
+            richTextBox1.SelectAll();
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+        }
+
+        private void richTextBox1_LinkClicked(object sender, LinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(e.LinkText);
         }
     }
 }

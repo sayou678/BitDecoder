@@ -70,5 +70,10 @@ namespace BitDecode
                 textBox1.Text = set.colums;
             }
         }
+
+        private void richTextBox1_LinkClicked(object sender, LinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(e.LinkText);
+        }
     }
 }
