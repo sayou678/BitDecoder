@@ -119,7 +119,7 @@
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>BitDecoder
-Version: 1.1
+Version: 1.2
 
 C# 编写的二进制流分段解析工具，比如查看ipv4报文头各个字段的值，查看一个寄存器的各个偏移量等。
 A windows app which can decode binary stream splited by several pieces, such as a ipv4 packet, each offsets of a HEX register etc. Written by C#.
