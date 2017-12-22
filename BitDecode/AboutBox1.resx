@@ -112,19 +112,20 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>BitDecoder
 Version: 1.2
 
-C# 编写的二进制流分段解析工具，比如查看ipv4报文头各个字段的值，查看一个寄存器的各个偏移量等。
-A windows app which can decode binary stream splited by several pieces, such as a ipv4 packet, each offsets of a HEX register etc. Written by C#.
+C#编写的二进制流分段解析工具，比如查看ipv4报文头各个字段的值，查看一个寄存器的各个偏移量等。 
+A windows app which can splite binary stream by several pieces and show the value of each piece as Dec, Otc and Hex format.
+It is user friendly to check bit stream, such as a ipv4 packet, different offsets of a HEX register etc. Written by C#.
 
-作者：李云岗 Damon Li
+作者：李云岗 Brett Li
 
 请将Bug或对本软件的建议告诉我。
 本软件由VS2010 C#编译，已经开源，地址如下:
