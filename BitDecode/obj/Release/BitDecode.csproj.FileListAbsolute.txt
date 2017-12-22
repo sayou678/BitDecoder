@@ -29,3 +29,4 @@ C:\code\BitDecoder\BitDecode\obj\Release\BitDecode.Option.resources
 C:\code\BitDecoder\BitDecode\obj\Release\BitDecode.Properties.Resources.resources
 C:\code\BitDecoder\BitDecode\obj\Release\BitDecode.TableName.resources
 C:\code\BitDecoder\BitDecode\obj\Release\BitDecode.csproj.GenerateResource.Cache
+C:\code\BitDecoder\BitDecode\obj\Release\BitDecode.csprojResolveAssemblyReference.cache
